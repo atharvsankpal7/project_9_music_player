@@ -97,8 +97,16 @@ img {
 }
 
 .songbanner {
-
+    display: grid;
     border: 2px solid yellowgreen;
+    align-self: start;
+    justify-items: center;
+    /* background: url(/kisspng-microphone-headphones-vector-headphones-5a835fb26050b6.0967631615185591543945.png);
+    background-size:70%;
+    background-repeat: no-repeat; */
+}
+.songbanner img{
+    width:70%;
 }
 
 .songlist {
