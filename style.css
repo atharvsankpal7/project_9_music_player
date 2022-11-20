@@ -46,6 +46,7 @@ img {
     color: #F4DF4EFF;
     display: grid;
     grid-template-columns: 2fr 3fr;
+    margin-bottom: 20px;
 }
 
 .container h1 {
@@ -56,7 +57,7 @@ img {
     position: relative;
     color: #ADEFD1FF;
     background: #00203FFF;
-    height: 20vh;
+    height: calc(17vh + 2px);
 }
 
 .songname {
@@ -101,18 +102,21 @@ img {
     border: 2px solid yellowgreen;
     align-self: start;
     justify-items: center;
+    min-height: 100%;
     /* background: url(/kisspng-microphone-headphones-vector-headphones-5a835fb26050b6.0967631615185591543945.png);
     background-size:70%;
     background-repeat: no-repeat; */
 }
 .songbanner img{
-    width:70%;
+    width:60%;
+    /* height: 70%; */
 }
 
 .songlist {
     border: 2px solid yellowgreen;
     border-right: 0px;
     text-align: center;
+    min-height: 100%;
 }
 
 .songitem {
